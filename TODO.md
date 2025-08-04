@@ -9,7 +9,7 @@
 
 ## Project dependecies
 
-- [] add zustand
-- [] add better-auth
-- [] add i18n
-- [] add fullcalendar
+- [X] add zustand
+- [X] add better-auth
+- [X] add i18n
+- [X] add fullcalendar
