@@ -13,4 +13,7 @@
 - [X] add better-auth
 - [X] add i18n
 - [X] add fullcalendar
+<<<<<<< HEAD
 - [X] add date-fns
+=======
+>>>>>>> a84a2d208c4832ae7cf5c1f1410ba3cfdb8385b7
