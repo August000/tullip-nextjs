@@ -3,7 +3,7 @@
 
 ## Project initialization
 
-- [] succesful deployment
+- [X] succesful deployment
 - [] add cursor rules
 - [] add ci/cd
 
