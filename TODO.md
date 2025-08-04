@@ -4,8 +4,8 @@
 ## Project initialization
 
 - [X] succesful deployment
-- [] add cursor rules
-- [] add ci/cd
+- [X] add cursor rules
+- [X] add ci/cd
 
 ## Project dependecies
 
