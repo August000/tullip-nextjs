@@ -1,4 +1,5 @@
 import { createCallerFactory, createTRPCRouter } from "~/server/api/trpc";
+import { publicProcedure } from "~/server/api/trpc";
 
 /**
  * This is the primary router for your server.
@@ -6,6 +7,10 @@ import { createCallerFactory, createTRPCRouter } from "~/server/api/trpc";
  * All routers added in /api/routers should be manually added here.
  */
 export const appRouter = createTRPCRouter({
+  health: publicProcedure
+    .query(() => {
+      return { status: "ok", timestamp: new Date().toISOString() };
+    }),
 });
 
 // export type definition of API
