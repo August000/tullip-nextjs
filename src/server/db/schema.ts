@@ -25,3 +25,6 @@ export const posts = createTable(
   }),
   (t) => [index("name_idx").on(t.name)],
 );
+
+// Export auth tables from auth-schema.ts
+export * from "./auth-schema";
